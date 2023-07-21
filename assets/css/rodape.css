@@ -1,0 +1,10 @@
+.rodape {
+    padding: 2rem 8rem;
+}
+
+.rodape__descricao {
+    color: var(--preto-suave);
+    font-family: var(--raleway);
+    line-height: 1.3;
+    text-align: center;
+}

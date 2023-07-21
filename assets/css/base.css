@@ -1,0 +1,14 @@
+:root {
+    --raleway: 'Raleway', sans-serif;
+
+    --azul: #2A7AE4;
+    --azul-claro: #b0c7e7;
+    --azul-escuro: rgb(45, 45, 211);
+    --branco: #FFFFFF;
+    --cinza: #7b7b7b;
+    --preto-suave: #464646;
+}
+
+.bold {
+    font-weight: bold;
+}

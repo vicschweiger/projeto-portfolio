@@ -1,0 +1,121 @@
+.botao-azul {
+    color: var(--branco);
+    background-color: var(--azul);
+    font-family: var(--raleway);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: 650ms;
+    width: 5.25rem;
+}   
+
+.botao-azul:hover {
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+}
+
+.botao-branco {
+    color: var(--azul);
+    background-color: var(--branco);
+    border: solid var(--azul) 0.5px;
+    font-family: var(--raleway);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: 650ms;
+    width: 5.25rem;
+}
+
+.botao-branco:hover {
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+}
+
+.btn-painel {
+    display: flex;
+    gap: 1rem;
+}
+.experiencia-profissional {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.experiencia-profissional__titulo {
+    color: var(--preto-suave);
+    font-family: var(--raleway);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experiencia-profissional__painel {
+    display: flex;
+    gap: 1rem;
+}
+
+.inverter {
+    flex-direction: row-reverse;
+}
+
+.painelexp__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.painelexp__titulo {
+    color: var(--preto-suave);
+    font-family: var(--raleway);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.painelexp__texto {
+    color: var(--preto-suave);
+    font-family: var(--raleway);
+    width: 15rem;
+}
+
+
+@media screen and (min-width: 0) {
+    .experiencia-profissional {
+        padding: 2rem;
+    }
+    .experiencia-profissional__painel {
+        flex-direction: row;
+    }
+    .painelexp__imagem {
+        width: 50%;
+        height: 20%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .experiencia-profissional {
+        align-items: left;
+        padding: 2rem;
+    }
+    .experiencia-profissional__painel {
+        align-items: left;
+        flex-direction: column;
+    }
+    .painelexp__imagem {
+        width: 70%;
+        height: 40%;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .experiencia-profissional {
+        padding: 2rem 8rem;
+    }
+    .experiencia-profissional__painel {
+        align-items: center;
+        flex-direction: row;
+    }
+    .painelexp__imagem {
+        width: 70%;
+        height: 40%;
+    }
+}

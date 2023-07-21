@@ -1,0 +1,73 @@
+.experiencia-profissional__painel {
+    display: flex;
+}
+
+.painel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.painel__cartoes {
+    background-color: var(--branco);
+    border: solid var(--preto-suave) 0.5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: flex-end;
+    width: 10rem;
+}
+
+.painel__cartoes_imagem {
+    padding: 0 1rem;
+    width: 2rem;
+}
+
+.painel__cartoes_titulo {
+    color: var(--preto-suave);
+    font-family: var(--raleway);
+    font-weight: bold;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 0) {
+    .skills-e-hobbies {
+        padding: 1rem;
+    }
+}
+
+.skills-e-hobbies {
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills-e-hobbies__painel {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.skills-e-hobbies__painel_titulo {
+    color: var(--preto-suave);
+    font-family: var(--raleway);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .skills-e-hobbies {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .skills-e-hobbies {
+        padding: 2rem 8rem 5.5rem 8rem;
+    }
+}
+
